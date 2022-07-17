@@ -7,10 +7,10 @@ import seaborn as sns
 currency = "USD"
 metric = "Close"
 
-start = dt.datetime(2018,1,1)
+start = dt.datetime(2013,4,29)
 end = dt.datetime.now()
 
-crypto = ['BTC', 'ETH', 'LTC', 'XRP', 'DASH', 'SC']
+crypto = ['BTC', 'ETH', 'ADA', 'SOL', 'LTC', 'TRX', 'XRP', 'MATIC', 'XMR', 'SIN']
 colnames = []
 
 first = True
@@ -27,7 +27,7 @@ for ticker in crypto:
         colnames.append(ticker)
         combined.columns = colnames
 
-plt.yscale('log') # first show linear
+plt.yscale('log') #first show linear
 
 for ticker in crypto:
     plt.plot(combined[ticker], label=ticker)
@@ -36,7 +36,7 @@ plt.legend(loc="upper right")
 
 plt.show()
 
-# # Correlation Heat Map
+#Correlation Heat Map
 
 print(combined)
 

@@ -10,10 +10,11 @@ python3 crypto_candle.py
 ````
 
 ### MacOS
-- install the package manage [Homebrew](https://brew.sh/)
+- Install the package manager [Homebrew](https://brew.sh/)
+- Then run
 ````
-sudo apt install python3-pip
-pip install pandas-datareader mplfinance seaborn
+brew install python3
+pip3 install pandas-datareader mplfinance seaborn
 python3 crypto_correlation.py 
 python3 crypto_candle.py 
 ````

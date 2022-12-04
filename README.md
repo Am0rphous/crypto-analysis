@@ -18,3 +18,11 @@ pip3 install pandas-datareader mplfinance seaborn
 python3 crypto_correlation.py 
 python3 crypto_candle.py 
 ````
+
+### Preview
+crypto_correlation_1
+![crypto_correlation_1.jpeg](images/crypto_correlation_1.jpeg?raw=true)
+
+2
+
+crypto_candle

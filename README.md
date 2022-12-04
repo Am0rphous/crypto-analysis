@@ -20,10 +20,11 @@ python3 crypto_candle.py
 ````
 
 ### Preview
-crypto_correlation_1
+Creating crypto_correlation_1
 
 ![crypto_correlation_1.png](images/crypto_correlation_1.png?raw=true)
+![crypto_correlation_2.png](images/crypto_correlation_1.png?raw=true)
+![crypto_candle.png](images/crypto_candle.png?raw=true)
 
-2
 
-crypto_candle
+

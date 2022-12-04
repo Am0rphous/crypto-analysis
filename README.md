@@ -20,10 +20,13 @@ python3 crypto_candle.py
 ````
 
 ### Preview
-Creating crypto_correlation_1
+Running `python3 crypto_correlation.py` will create the first two images.
 
 ![crypto_correlation_1.png](images/crypto_correlation_1.png?raw=true)
 ![crypto_correlation_2.png](images/crypto_correlation_2.png?raw=true)
+
+Running `python3 crypto_candle.py` will create this image.
+
 ![crypto_candle.png](images/crypto_candle.png?raw=true)
 
 

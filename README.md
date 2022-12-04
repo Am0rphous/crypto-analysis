@@ -21,7 +21,8 @@ python3 crypto_candle.py
 
 ### Preview
 crypto_correlation_1
-![crypto_correlation_1.jpeg](images/crypto_correlation_1.jpeg?raw=true)
+
+![crypto_correlation_1.png](images/crypto_correlation_1.png?raw=true)
 
 2
 

@@ -1,20 +1,24 @@
 # Basic Crypto Analysis
-Some basic visualizations and analyses for cryptocurrencies.
+Some basic visualizations and analysis for crypto.
 
 ### Linux
 ````
-sudo apt install python3-pip
+sudo apt install python3-pip git
 pip install pandas-datareader mplfinance seaborn
+git clone https://github.com/Am0rphous/crypto-analysis
+cd crypto-analysis
 python3 crypto_correlation.py 
 python3 crypto_candle.py 
 ````
 
 ### MacOS
 - Install the package manager [Homebrew](https://brew.sh/)
-- Then run
+- Then run:
 ````
-brew install python3
+brew install python3 git
 pip3 install pandas-datareader mplfinance seaborn
+git clone https://github.com/Am0rphous/crypto-analysis
+cd crypto-analysis
 python3 crypto_correlation.py 
 python3 crypto_candle.py 
 ````
